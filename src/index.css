@@ -1,0 +1,187 @@
+.nav-item{
+    padding: 5px;
+}
+
+.nav-pills li {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.wbdv-module-list{
+    padding: 5px;
+}
+
+.wbdv-lesson-tabs{
+    padding: 5px;
+    background-color: #004d99;
+    color: white;
+}
+
+.wbdv-topic-pills{
+    padding: 5px;
+}
+
+.list-group{
+    background-color: gray;
+}
+
+.wbdv-module-list-item{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wbdv-new-lesson{
+    border: none;
+}
+
+.wbdv-lesson-item{
+    border: 2px solid #FFF;
+}
+
+.wbdv-pill-item{
+    background-color: #a8a8a8;
+    border: 2px solid #61686D;
+}
+.wbdv-link {
+    color: #FFF;
+}
+.wbdv-link:hover {
+    color: #000000;
+}
+
+.wbdv-draggable-list{
+    background-color: white;
+    padding: 5px 5px 0 0;
+    margin: 5px 0 5px 0;
+}
+
+.wbdv-draggable-list-dragging{
+    background-color: lightblue;
+    padding: 5px 5px 0 0;
+    margin: 5px 0 5px 0;
+}
+
+.wbdv-draggable-list-item{
+    padding: 5px;
+    margin: 0 0 5px 0;
+    border: 1px solid lightgray;
+    background: white;
+}
+
+.wbdv-draggable-list-item-dragging{
+    padding: 5px;
+    margin: 0 0 5px 0;
+    border: 1px solid lightgray;
+    background: lightgreen
+}
+
+.wbdv-card{
+    width: 18rem
+}
+
+.wbdv-new-course-div{
+    padding: 5px;
+    color: white;
+    background-color: #004d99;
+}
+
+.wbdv-module-lesson-div{
+    color: white;
+    background-color: #004d99;
+}
+
+.wbdv-icon-small{
+    font-size: 12px;
+    color:white;
+}
+
+.wbdv-icon-white{
+    color:white;
+}
+
+.wbdv-bg{
+    background-color: #eef7fa;
+    color: #004d99;
+}
+
+.wbdv-padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.wbdv-row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wbdv-padding-5{
+    padding: 5px;
+}
+
+.wbdv-margin-5{
+    margin: 5px;
+}
+
+.wbdv-widget-list-top{
+    text-align: right
+}
+
+.wbdv-margin-2{
+    margin: 2px;
+}
+
+.wbdv-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+}
+
+.wbdv-switch input {display:none;}
+
+.wbdv-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.wbdv-slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .wbdv-slider {
+    background-color: #2196F3;
+}
+
+input:focus + .wbdv-slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .wbdv-slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.wbdv-slider.round {
+    border-radius: 30px;
+}
+
+.wbdv-slider.round:before {
+    border-radius: 50%;
+}
